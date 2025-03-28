@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #000000;
+    color: #e50000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #e50000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: center;
+    color: #e50000;
+    margin: 5px 0; /* Add some vertical margin to <p> tags */
+}
+
+.container {
+    background-color: #000000;
+    color: #e50000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+#password-form {
+    margin-top: 20px;
+    color: #e50000;
+}
+
+#password-form input, #password-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #e50000;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+#password-form button {
+    background-color: #e50000;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+#password-form button:hover {
+    background-color: #c80000;
+}
+
+#content {
+    margin-top: 20px;
+    text-align: center; /* Center content within #content */
+}
